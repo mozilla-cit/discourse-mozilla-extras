@@ -1,0 +1,9 @@
+{
+  "name": "Mozilla Discourse",
+  "description": "Web App for Mozilla's Discourse instance",
+  "developer": {
+    "name": "Community IT",
+    "url": "https://discourse.mozilla-community.org"
+  },
+  "default_locale": "en"
+}
