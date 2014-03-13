@@ -1,0 +1,285 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+html {
+     background: url("https://dgxew5xs2vw9e.cloudfront.net/images/vertical-gradient.png") repeat-x scroll 0px 0px, url("https://dgxew5xs2vw9e.cloudfront.net/images/grain.png") repeat scroll 0px 0px, none repeat scroll 0% 0% 
+     // If you're going to use this, it'd be appreciated if you use the images provided instead of our CDN, but we can't stop you from using it.
+#F5F1E8;
+     border-top: 2px solid #FFFFFF;
+     color: #000000;
+     overflow-y: scroll;
+     font-family:"Open Sans Light",sans-serif;
+}
+
+a,a.reply-new {
+     color: #0096DD;
+     cursor: pointer;
+     text-decoration: none;
+}
+
+a:visited,a.reply-new:visited {
+     color: #4A6B82;
+}
+
+a:hover,a.reply-new:hover {
+     color: #0081B0;
+}
+
+a:focus,a.reply-new:focus {
+     outline: 0px none;
+}
+
+a:active,a.reply-new:active {
+     color: #484848;
+}
+
+.btn, .btn:link, .btn:visited {
+    background-color: #277AC1;
+    background-image: linear-gradient(#43A6E2, #277AC1);
+    background-repeat: repeat-x;
+    border: 0 none;
+    border-radius: 0.25em;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2), 0 -1px 0 0 rgba(0, 0, 0, 0.3) inset;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: 'Open Sans','Droid Arabic Naskh',sans-serif;
+    font-size: 14px;
+    transition: all 0.25s linear 0s;
+    
+    
+    cursor: pointer;
+    font-weight: normal;
+    letter-spacing: -0.25px;
+    line-height: 18px;
+    margin: 0px;
+    outline: 0px none;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+    transition-duration: 0.25s;
+}
+
+.btn:hover {
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2), 0 -1px 0 0 rgba(0, 0, 0, 0.3) inset, 0 12px 24px 2px #38A9ED inset;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all 0.25s linear 0s;
+    background-color: #277AC1;
+    background-image: linear-gradient(#43A6E2, #277AC1);
+    background-repeat: repeat-x;
+}
+
+.btn:active {
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2) inset, 0 12px 24px 6px rgba(0, 0, 0, 0.2) inset, 0 0 2px 2px rgba(0, 0, 0, 0.2) inset;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all 0.25s linear 0s;
+    background-color: #277AC1;
+    background-image: linear-gradient(#43A6E2, #277AC1);
+    background-repeat: repeat-x;
+}
+
+.nav-pills > li:hover > a, .nav-pills>li:hover>a,.nav-pills > li.active > a,.nav-pills > li > a, .nav-pills>li>a,.nav-pills > li.active > a, .nav-pills>li>a.active {
+    background-color:transparent;
+    border-color:transparent;
+}
+
+ul#navigation-bar li a{color:#0096DD;text-decoration:none;}
+ul#navigation-bar a:hover {text-decoration:underline;}
+
+#topic-list, #topic-list th, #topic-list > tbody > tr:nth-child(2n) {
+    background-color:rgb(255,255,255);
+}
+
+#notifications-dropdown.d-dropdown li, #topic-list tr td, .d-dropdown li {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+} 
+
+.d-dropdown .heading {
+    color:rgb(62,62,62);
+}
+
+#notifications-dropdown.d-dropdown li {
+    color:rgb(72,72,72);
+}
+
+table#topic-list{
+    border:none;
+}
+
+#topic-list .avatar.latest{
+    box-shadow: 0px 0px 2px 2px rgba(73, 173, 227, 0.4);
+}
+
+.d-header {
+    background-color: rgba(255,255,255,0.95);
+}
+
+.d-header .icons .unread-private-messages{
+    background-color:#4C9ED9;
+}
+
+.large {
+  font-size: 72px;
+  letter-spacing: -3px;
+  line-height: 100%;
+}
+h1 {
+  font-size: 48px;
+  letter-spacing: -2px;
+  line-height: 100%;
+  font-weight:300;
+}
+body h1{
+  font-weight:300;
+}
+body h2, h2 {
+  font-size: 32px;
+  letter-spacing: -0.2px;
+  line-height: 100%;
+  font-weight:300;
+}
+
+.body-page p {
+    font-weight: 300;
+color: rgb(52,52,52);
+}
+
+body h3, h3 {
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 100%;
+  font-weight:300 !important;
+}
+body h4, h4 {
+  font-size: 14px;
+  letter-spacing: -0.25px;
+  line-height: 100%;
+}
+.small, small {
+  font-size: 12px;
+  line-height: 100%;
+}
+// td.category a.badge-category{
+//    color:#FE9300 !important;
+//}
+body .alert-info{
+    background-color: rgb(240,240,240);
+    border-color: transparent;
+}
+.topic-body{
+    background-color:#FFF;
+}
+#topic-progress .bg {
+    background-color: #C6F3B6;
+}
+a.badge-category{
+    letter-spacing: 0;
+}
+.topic-meta-data{
+    border-top:none;
+}
+body #main a.star {
+    color:#FFF;
+}
+body #main .fa-star.starred,body #main a.star.starred{
+    color:#FFCB00;
+}
+.staff a{
+    background-color: rgba(255,255,180,0.3);
+}
+.post-cloak:last-of-type{
+    border-bottom:none;
+}
+.list-controls a.badge-category.home{
+    background-color:#FFF !important;
+}
+table#topic-list tr {
+    background-color:#FFF !important;
+}
+.logo-small {
+    width: 43.56px;
+    height: 33px;
+}
+
+.moderator .topic-body {
+    background-color:#FFF;
+}
+
+#topic-list .topic-excerpt {
+    color: rgb(51,51,51);
+}
+
+#topic-list .alert {
+    font-size: 15px;
+}
+
+.d-header .current-username a {
+    color: rgb(69,69,69);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#topic-list button.bulk-select:hover {
+    color:#FFF;
+}
+
+#topic-list button.bulk-select {
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+
+.d-header {
+    padding-right:0px;
+}
+
+.user-main .user-stream .item.deleted, .deleted .topic-body  {
+background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.3) 24%, transparent 24%, transparent 52%, rgba(255, 255, 255, 0.3) 52%, rgba(255, 255, 255, 0.3) 77%, transparent 77%, transparent);
+background-size: 52px 52px;
+}
+
+.d-header .icons .icon {
+    border:none;
+}
+
+.d-header .icons > li:last-child .icon {
+    border-right:none;
+}
+
+.user-main .about {
+    background-color: #6A7B86;
+}
+
+.user-main .about .details .secondary {
+    background-color: #424F5A;
+}
+
+.user-main .about .details img.avatar {
+    border: 3px solid #FFF;
+}
+
+.user-main .about .controls {
+    background-color: #D4DDE4;
+}
+
+.nav-stacked .active > a, .nav-stacked .active .fa-chevron-right {
+    background-color: #0095DD;
+}
+
+#poster-expansion .new-user a {
+    font-size: 29px;
+    color: rgb(92,92,92);
+}
+
+blockquote {
+    background-color: rgb(245,245,245);
+}
+
+.d-header .icons .badge-notification {
+    top: -5px;
+}
+
+body .alert {
+    padding-bottom: 5px;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+}
