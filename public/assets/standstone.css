@@ -234,7 +234,6 @@ table#topic-list tr {
 
 .user-main .user-stream .item.deleted, .deleted .topic-body  {
 background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.3) 24%, transparent 24%, transparent 52%, rgba(255, 255, 255, 0.3) 52%, rgba(255, 255, 255, 0.3) 77%, transparent 77%, transparent);
-background-size: 52px 52px;
 }
 
 .d-header .icons .icon {
@@ -282,4 +281,40 @@ body .alert {
     padding-bottom: 5px;
     font-weight: 300;
     letter-spacing: -0.2px;
+}
+
+a.badge-category.category-dropdown-button.home {
+    background-color:#EEE !important;
+}
+
+#topic-list th {
+    color: #333;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.d-header .icons .icon:hover {
+    border:0;
+}
+
+.d-header #site-logo {
+    max-width: 122px;
+}
+
+.topic-map .buttons .btn:hover {
+    background: none repeat scroll 0% 0% #EEE;
+box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), 0px -1px 0px 0px rgba(0, 0, 0, 0.3) inset, 0px 12px 24px 2px #DDD inset;
+}
+
+.private-message-glyph {
+    color: white;
+    margin-right: 8px;
+}
+
+.moderator .topic-body {
+    border-bottom:none;
+}
+
+section.details h1, .commits-widget .header h1 {
+    letter-spacing: 0px;
 }
