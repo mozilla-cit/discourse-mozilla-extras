@@ -1,8 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
 html {
-     background: url("https://dgxew5xs2vw9e.cloudfront.net/images/vertical-gradient.png") repeat-x scroll 0px 0px, url("https://dgxew5xs2vw9e.cloudfront.net/images/grain.png") repeat scroll 0px 0px, none repeat scroll 0% 0% 
-     // If you're going to use this, it'd be appreciated if you use the images provided instead of our CDN, but we can't stop you from using it.
-#F5F1E8;
+     background: url("https://dgxew5xs2vw9e.cloudfront.net/images/vertical-gradient.png") repeat-x scroll 0px 0px, url("https://dgxew5xs2vw9e.cloudfront.net/images/grain.png") repeat scroll 0px 0px, none repeat scroll 0% 0% #F5F1E8;
      border-top: 2px solid #FFFFFF;
      color: #000000;
      overflow-y: scroll;
@@ -51,7 +49,6 @@ a:active,a.reply-new:active {
     line-height: 18px;
     margin: 0px;
     outline: 0px none;
-    padding: 6px 12px;
     text-align: center;
     text-decoration: none;
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
@@ -168,6 +165,7 @@ body .alert-info{
 }
 .topic-body{
     background-color:#FFF;
+    padding: 12px 15px 15px 15px;
 }
 #topic-progress .bg {
     background-color: #C6F3B6;
@@ -178,6 +176,13 @@ a.badge-category{
 .topic-meta-data{
     border-top:none;
 }
+.topic-meta-data .names {
+    left: 81px;
+    top: 5px;
+}
+.topic-meta-data .main-avatar img {
+    top: 10px;
+}
 body #main a.star {
     color:#FFF;
 }
@@ -186,6 +191,9 @@ body #main .fa-star.starred,body #main a.star.starred{
 }
 .staff a{
     background-color: rgba(255,255,180,0.3);
+}
+.post-cloak .topic-meta-data-inside {
+    margin-top: -30px;
 }
 .post-cloak:last-of-type{
     border-bottom:none;
@@ -317,4 +325,17 @@ box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), 0px -1px 0px 0px rgba(0, 0, 0, 0
 
 section.details h1, .commits-widget .header h1 {
     letter-spacing: 0px;
+}
+
+.topic-avatar {
+    border-top: none;
+}
+
+#topic-closing-info {
+    border-top: none;
+}
+
+aside.onebox .onebox-body img {
+    max-width: 100px;
+    max-height: 100px;
 }
