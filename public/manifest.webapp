@@ -12,5 +12,8 @@
     "name": "Mozilla Community IT",
     "url": "https://discourse.mozilla-community.org"
   },
-  "default_locale": "en"
+  "default_locale": "en",
+  "chrome": {
+    "navigation": true
+  }
 }
