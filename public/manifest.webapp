@@ -1,17 +1,19 @@
 {
-"name": "Mozilla Discourse",
-"description": "Web App for Mozilla's Discourse instance",
-"icons": {
-"32": "/images/icon-32.png",
-"60": "/images/icon-60.png",
-"90": "/images/icon-90.png",
-"120": "/images/icon-120.png",
-"128": "/images/icon-128v2.png"
- 
-},
-"developer": {
-"name": "Mozilla Community IT",
-"url": "https://discourse.mozilla-community.org"
-},
-"default_locale": "en"
+  "name": "Mozilla Discourse",
+  "description": "Web App for Mozilla's Discourse instance",
+  "icons": {
+    "32": "/images/icon-32.png",
+    "60": "/images/icon-60.png",
+    "90": "/images/icon-90.png",
+    "120": "/images/icon-120.png",
+    "128": "/images/icon-128v2.png"
+  },
+  "developer": {
+    "name": "Mozilla Community IT",
+    "url": "https://discourse.mozilla-community.org"
+  },
+  "default_locale": "en",
+  "chrome": {
+    "navigation": true
+  }
 }
