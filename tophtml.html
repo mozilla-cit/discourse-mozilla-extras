@@ -1,18 +1,12 @@
 <script type="text/javascript">
-
-function installapp() {
-var manifestUrl = "http://184.169.134.138/manifest.webapp";
-   var request = window.navigator.mozApps.install(manifestUrl);
-request.onsuccess = function () {
-  // Save the App object that is returned
-  var appRecord = this.result;
-  alert('Installation successful!');
-};
-request.onerror = function () {
-  // Display the error information from the DOMError object
-  alert('Install failed, error: ' + this.error.name);
-};
+function installApp() {
+    var manifestUrl = 'http://csa-discourse.mofostaging.net/manifest.webapp';
+    var request = window.navigator.mozApps.install(manifestUrl);
+    request.onerror = function () {
+      console.error('Install failed, error: ' + this.error.name, this.error, this);
+    }
 }
 </script>
-
-<button id="installAppBtn" onclick="installapp()">Install App</button>
+<script type='text/x-handlebars' data-template-name='/connectors/site-map-links/install-app'>
+    <li><a href="#" onclick="installApp()">Install App</a></li>
+</script>
