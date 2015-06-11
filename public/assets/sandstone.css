@@ -41,8 +41,8 @@ a:active,a.reply-new:active {
     font-family: 'Open Sans','Droid Arabic Naskh',sans-serif;
     font-size: 14px;
     transition: all 0.25s linear 0s;
-    
-    
+
+
     cursor: pointer;
     font-weight: normal;
     letter-spacing: -0.25px;
@@ -89,7 +89,7 @@ ul#navigation-bar a:hover {text-decoration:underline;}
 
 #notifications-dropdown.d-dropdown li, #topic-list tr td, .d-dropdown li {
     border-top: 1px solid rgba(0, 0, 0, 0.2);
-} 
+}
 
 .d-dropdown .heading {
     color:rgb(62,62,62);
@@ -334,4 +334,8 @@ section.details h1, .commits-widget .header h1 {
 aside.onebox .onebox-body img {
     max-width: 100px;
     max-height: 100px;
+}
+
+.topic-list {
+  background: rgba(255,255,255,0.8);
 }
